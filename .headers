@@ -1,0 +1,7 @@
+cat <<EOF > .headers
+/exploit.sxg
+  Content-Type: application/signed-exchange;v=b3
+
+/cert.cbor
+  Content-Type: application/cert-chain+cbor
+EOF
